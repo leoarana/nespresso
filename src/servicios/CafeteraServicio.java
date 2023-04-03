@@ -5,12 +5,32 @@
  */
 package servicios;
 
+import entidades.Cafetera;
+
 /**
  *
  * @author leandro
  */
 public class CafeteraServicio {
  
+
+    public void llenarCafetera(Cafetera c1){
+        c1.setCantidadActual(c1.getCapacidadMaxima());
+        System.out.println("La cafetera está llena. \n Tiene " + c1.getCantidadActual() + "ltrs.");
+    }
+    
+    public void vaciarCafetera (Cafetera c1){
+        c1.setCantidadActual(0);
+        System.out.println("Cafetera Vacía");
+    }
+    
+    public void agregarCafe (Cafetera c1){
+        System.out.println("Agregar" + (c1.getCapacidadMaxima() - c1.getCantidadActual()) + "café." );
+        System.out.println("Gracias!");
+    }
+    
+    
+
      public double llenarCafetera(double a, double b){
      
          b = a;
@@ -25,4 +45,5 @@ public class CafeteraServicio {
      
      return a;
      }
+
 }
