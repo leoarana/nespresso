@@ -1,21 +1,19 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package nespresso;
 
-/**
- *
- * @author leandro
- */
+import entidades.Cafetera;
+import servicios.CafeteraServicio;
+
 public class Nespresso {
 
-    /**
-     * @param args the command line arguments
-     */
+   
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        Cafetera c1 = new Cafetera(10,7);
+        CafeteraServicio cf1 = new CafeteraServicio();
+        
+        System.out.println(c1);
+        
     }
     
 }
