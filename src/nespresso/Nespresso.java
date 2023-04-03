@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package nespresso;
+import entidades.Cafetera;
 
 /**
  *
@@ -15,7 +16,13 @@ public class Nespresso {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Cafetera c1 = new Cafetera(10, 7);
+        
+
+        
+    
+    
+        
     }
     
 }
