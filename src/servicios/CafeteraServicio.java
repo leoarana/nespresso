@@ -11,4 +11,11 @@ package servicios;
  */
 public class CafeteraServicio {
  
+     public double llenarCafetera(double a, double b){
+     
+         b = a;
+     
+         
+         return b;
+     }
 }
