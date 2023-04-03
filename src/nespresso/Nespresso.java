@@ -7,8 +7,6 @@ package nespresso;
 import entidades.Cafetera;
 
 import java.util.Scanner;
-=======
-
 import servicios.CafeteraServicio;
 
 /**

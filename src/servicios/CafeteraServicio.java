@@ -31,7 +31,7 @@ public class CafeteraServicio {
     
     
 
-     public double llenarCafetera(double a, double b){
+    /* public double llenarCafetera(double a, double b){
      
          b = a;
      
@@ -43,7 +43,6 @@ public class CafeteraServicio {
      
          double a = 0;
      
-     return a;
+     return a;*/
      }
 
-}
