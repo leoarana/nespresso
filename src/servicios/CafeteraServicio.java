@@ -14,6 +14,12 @@ indicada.
 */
 package servicios;
 
+import entidades.Cafetera;
+
+/**
+ *
+ * @author leandro
+ */
 
 
 public class CafeteraServicio {
@@ -24,15 +30,12 @@ public class CafeteraServicio {
         
        
     return b;
-    }        
+         
+    }
 
-import entidades.Cafetera;
 
-/**
- *
- * @author leandro
- */
-public class CafeteraServicio {
+
+
  
 
     public void llenarCafetera(Cafetera c1){
@@ -67,8 +70,7 @@ public class CafeteraServicio {
      return a;*/
      }
 
-<<<<<<< HEAD
-=======
 
-}
->>>>>>> 0d3628dcddae7340b6126b7f559c44e484b90c2e
+
+
+

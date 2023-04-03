@@ -7,12 +7,7 @@ import servicios.CafeteraServicio;
 
 
 import java.util.Scanner;
-<<<<<<< HEAD
-=======
 
-
->>>>>>> 0d3628dcddae7340b6126b7f559c44e484b90c2e
-import servicios.CafeteraServicio;
 
 /**
  *
@@ -26,13 +21,12 @@ public class Nespresso {
 
         
         Cafetera c1 = new Cafetera(10,7);
-        CafeteraServicio cf1 = new CafeteraServicio();
+        CafeteraServicio cs = new CafeteraServicio();
         
 
         Scanner leer = new Scanner(System.in);
-        Cafetera c1 = new Cafetera(10, 7);
-
-        CafeteraServicio cs = new CafeteraServicio();
+       
+     
         
         System.out.println("Ingrese una opcíón");
         System.out.println("Opción 1: Llenar cafetera.");
@@ -68,8 +62,7 @@ public class Nespresso {
 
    // c1.setCantidadActual(s1.llenarCafetera(c1.getCapacidadMaxima(), c1.getCantidadActual()));
     // c1.setCantidadActual(s1.vaciarCafetera());
-r
-        System.out.println(c1);
+
         
     }
     
