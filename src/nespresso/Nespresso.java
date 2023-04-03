@@ -21,7 +21,7 @@ public class Nespresso {
         CafeteraServicio s1 = new CafeteraServicio();
 
    // c1.setCantidadActual(s1.llenarCafetera(c1.getCapacidadMaxima(), c1.getCantidadActual()));
-    
+    // c1.setCantidadActual(s1.vaciarCafetera());
         System.out.println(c1);
         
     }

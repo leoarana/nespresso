@@ -18,4 +18,11 @@ public class CafeteraServicio {
          
          return b;
      }
+     
+     public double vaciarCafetera(){
+     
+         double a = 0;
+     
+     return a;
+     }
 }
