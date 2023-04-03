@@ -5,7 +5,10 @@
  */
 package nespresso;
 import entidades.Cafetera;
+
 import java.util.Scanner;
+=======
+
 import servicios.CafeteraServicio;
 
 /**
@@ -20,6 +23,7 @@ public class Nespresso {
     public static void main(String[] args) {
         Scanner leer = new Scanner(System.in);
         Cafetera c1 = new Cafetera(10, 7);
+
         CafeteraServicio cs = new CafeteraServicio();
         
         System.out.println("Ingrese una opcíón");
@@ -50,9 +54,13 @@ public class Nespresso {
                 break;
         }
 
-        
-    
-    
+
+        CafeteraServicio s1 = new CafeteraServicio();
+
+
+   // c1.setCantidadActual(s1.llenarCafetera(c1.getCapacidadMaxima(), c1.getCantidadActual()));
+    // c1.setCantidadActual(s1.vaciarCafetera());
+        System.out.println(c1);
         
     }
     

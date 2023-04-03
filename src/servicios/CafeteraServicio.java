@@ -13,6 +13,7 @@ import entidades.Cafetera;
  */
 public class CafeteraServicio {
  
+
     public void llenarCafetera(Cafetera c1){
         c1.setCantidadActual(c1.getCapacidadMaxima());
         System.out.println("La cafetera está llena. \n Tiene " + c1.getCantidadActual() + "ltrs.");
@@ -29,4 +30,20 @@ public class CafeteraServicio {
     }
     
     
+
+     public double llenarCafetera(double a, double b){
+     
+         b = a;
+     
+         
+         return b;
+     }
+     
+     public double vaciarCafetera(){
+     
+         double a = 0;
+     
+     return a;
+     }
+
 }
