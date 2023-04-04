@@ -1,6 +1,7 @@
 
 package nespresso;
 
+
 import entidades.Cafetera;
 import servicios.CafeteraServicio;
 
@@ -21,13 +22,13 @@ public class Nespresso {
 
         
         Cafetera c1 = new Cafetera(10,7);
-        CafeteraServicio cs = new CafeteraServicio();
+       CafeteraServicio cs = new CafeteraServicio();
         
 
         Scanner leer = new Scanner(System.in);
        
      
-        
+       
         System.out.println("Ingrese una opcíón");
         System.out.println("Opción 1: Llenar cafetera.");
         System.out.println("Opción 2: Servir taza.");
@@ -57,7 +58,7 @@ public class Nespresso {
         }
 
 
-        CafeteraServicio s1 = new CafeteraServicio();
+       // CafeteraServicio s1 = new CafeteraServicio();
 
 
    // c1.setCantidadActual(s1.llenarCafetera(c1.getCapacidadMaxima(), c1.getCantidadActual()));
