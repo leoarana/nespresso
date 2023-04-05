@@ -15,6 +15,7 @@ indicada.
 package servicios;
 
 import entidades.Cafetera;
+import java.util.Scanner;
 
 /**
  *
@@ -68,6 +69,45 @@ public class CafeteraServicio {
          double a = 0;
      
      return a;*/
+    
+    
+    public void sevirTaza(Cafetera c1, double cantidadActual) {
+        Scanner leer = new Scanner(System.in);
+        System.out.println("Escoga el tamaño de la taza vacia");
+        System.out.println("1) 250ml");
+        System.out.println("2) 340ml");
+        System.out.println("3) 420ml");
+        int tamañotaza = leer.nextInt();
+
+        switch (tamañotaza) {
+            case 1:
+                if (cantidadActual < tamañotaza) {
+                    System.out.println("La taza no se alcanzo a llenar. Para completarla faltó" + (tamañotaza - cantidadActual));
+                } else {
+                    System.out.println("La taza está llena");
+                }
+                break;
+            case 2:
+                if (cantidadActual < tamañotaza) {
+                    System.out.println("La taza no se alcanzo a llenar. Para completarla faltó" + (tamañotaza - cantidadActual));
+                } else {
+                    System.out.println("La taza está llena");
+                }
+                break;
+            case 3:
+                if (cantidadActual < tamañotaza) {
+                    System.out.println("La taza no se alcanzo a llenar. Para completarla faltó " + (tamañotaza - cantidadActual) + "ml");
+                } else {
+                    System.out.println("La taza está llena");
+                }
+                break;
+            default:
+                System.out.println("El número ingresado no es válido");
+        }
+     
+
+    }
+
      }
 
 
